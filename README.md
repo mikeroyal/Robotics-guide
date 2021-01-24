@@ -11,11 +11,12 @@
 <img src="https://user-images.githubusercontent.com/45159366/105645908-84e69d00-5e51-11eb-85a7-29b8074337ed.png">
 
 
-[Checkout the AWS DeepRacer autonomous Car Kit](https://www.amazon.com/AWS-DeepRacer-Fully-autonomous-developers/dp/B07JMHRKQG)
-
+**AWS DeepRacer autonomous Car Kit**
 <img src="https://user-images.githubusercontent.com/45159366/105645201-e35e4c00-5e4e-11eb-9df8-2cc91705b496.png">
 
-**Hardware Specs**
+[Checkout the AWS DeepRacer autonomous Car Kit](https://www.amazon.com/AWS-DeepRacer-Fully-autonomous-developers/dp/B07JMHRKQG)
+
+**AWS DeepRacer autonomous Car Kit Hardware Specifications**
 
  - CAR:	18th scale 4WD with monster truck chassis
  - CPU:	Intel Atom™ Processor
@@ -30,11 +31,13 @@
  - SENSORS:	Integrated accelerometer and gyroscope
 
 
-[Checkout the AWS DeepRacer Evo autonomous Car Kit](https://www.amazon.com/dp/B081GZSJVL)
+**AWS DeepRacer Evo autonomous Car Kit**
 
 <img src="https://user-images.githubusercontent.com/45159366/105645834-0ee23600-5e51-11eb-986b-ec3bbe7a8135.png">
 
-**Hardware Specs**
+[Checkout the AWS DeepRacer Evo autonomous Car Kit](https://www.amazon.com/dp/B081GZSJVL)
+
+**AWS DeepRacer Evo autonomous Car Kit Hardware Specifications**
 
  - CAR:	18th scale 4WD with monster truck chassis
  - CPU:	Intel Atom™ Processor
