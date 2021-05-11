@@ -18,7 +18,7 @@
 
 4. [C/C++ Development](https://github.com/mikeroyal/Robotics-guide#cc-development)
 
-5. [Python Develop](https://github.com/mikeroyal/Robotics-guide#python-development)
+5. [Python Development](https://github.com/mikeroyal/Robotics-guide#python-development)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/117885897-4c819800-b263-11eb-9fc8-14e7a931c9e4.png">
