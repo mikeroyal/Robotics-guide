@@ -10,25 +10,34 @@
 
 # Table of Contents
 
-1. [Kits for Robotics](https://github.com/mikeroyal/Robotics-guide#kits-for-robotics)
+1. [Robotic Arms & Dev Kits](https://github.com/mikeroyal/Robotics-guide#robotic-arms--dev-kits)
 
 2. [Robotics Learning Resources](https://github.com/mikeroyal/Robotics-guide#robotics-learning-resources)
 
-3. [Tools for Robotics](https://github.com/mikeroyal/Robotics-guide#tools-for-robotics)
+3. [Robotics Tools and Frameworks](https://github.com/mikeroyal/Robotics-guide#robotics-tools-and-frameworks)
 
-4. [C/C++ Development](https://github.com/mikeroyal/Robotics-guide#cc-development)
+4. [Autodesk Robotics Development](https://github.com/mikeroyal/Robotics-guide#autodesk-robotics-development)
 
-5. [Python Development](https://github.com/mikeroyal/Robotics-guide#python-development)
+5. [C/C++ Development](https://github.com/mikeroyal/Robotics-guide#cc-development)
+
+6. [Python Development](https://github.com/mikeroyal/Robotics-guide#python-development)
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/117885897-4c819800-b263-11eb-9fc8-14e7a931c9e4.png">
+ <img src="https://user-images.githubusercontent.com/45159366/122687559-ebd36c80-d1cb-11eb-9081-3b9ecb147482.png">
   <br />
 </p>
 
-**Robot Programming Software for CAM Manufacturing. Source: [Autodesk](https://www.autodesk.com/solutions/robot-programming-software)**
-
-# Kits for Robotics
+# Robotic Arms & Dev Kits
 [Back to the Top](https://github.com/mikeroyal/Robotics-Guide#table-of-contents)
+
+[Eva](https://automata.tech/about-eva/) is a 6-axis of freedom and ease of use, the lab robot arm easily automates the loading and unloading of samples into lab machines, precision balances and more. Eva can handle a range of common lab items  including microplates, PCR tube strips, eppendorf tubes, petri dishes and microscope slides to automating repetitive and strenuous sample handling processes. Common manufacturing machine tending applications with Eva include start/end of line loading and unloading of machines such as CNC machines, CMMs, metal presses and chemical etching machines.
+
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122688384-cac14a80-d1d0-11eb-874c-a523a0c654ad.png">
+  <br />
+</p>
+
+**Eva lab robot arm from Automata. Source: [Automata](https://automata.tech/about-eva/)**
 
 **AWS DeepRacer autonomous Car Kit**
 <img src="https://user-images.githubusercontent.com/45159366/105645201-e35e4c00-5e4e-11eb-9df8-2cc91705b496.png">
@@ -43,28 +52,6 @@
  - STORAGE: 32GB (expandable)
  - WI-FI:	802.11ac
  - CAMERA:	 4 MP cameras with MJPEG
- - SOFTWARE:	Ubuntu OS 16.04 LTS, Intel® OpenVINO™ toolkit, ROS Kinetic
- - DRIVE BATTERY:	7.4V/1100mAh lithium polymer
- - COMPUTE BATTERY:	13600mAh USB-C PD
- - PORTS:	4x USB-A, 1x USB-C, 1x Micro-USB, 1x HDMI
- - SENSORS:	Integrated accelerometer and gyroscope
-
-
-**AWS DeepRacer Evo autonomous Car Kit**
-
-<img src="https://user-images.githubusercontent.com/45159366/105645834-0ee23600-5e51-11eb-986b-ec3bbe7a8135.png">
-
-[Checkout the AWS DeepRacer Evo autonomous Car Kit](https://www.amazon.com/dp/B081GZSJVL)
-
-**AWS DeepRacer Evo autonomous Car Kit Hardware Specifications**
-
- - CAR:	18th scale 4WD with monster truck chassis
- - CPU:	Intel Atom™ Processor
- - MEMORY:	4GB RAM
- - STORAGE: 32GB (expandable)
- - WI-FI:	802.11ac
- - CAMERA:	Stereo 4 MP cameras with MJPEG
- - **LIDAR Sensor:	360 Degree 12 Meters Scanning Radius LIDAR Sensor**
  - SOFTWARE:	Ubuntu OS 16.04 LTS, Intel® OpenVINO™ toolkit, ROS Kinetic
  - DRIVE BATTERY:	7.4V/1100mAh lithium polymer
  - COMPUTE BATTERY:	13600mAh USB-C PD
@@ -107,7 +94,7 @@
 
 [Google Robotics Research](https://research.google/teams/brain/robotics/)
 
-# Tools for Robotics
+# Robotics Tools and Frameworks
 [Back to the Top](https://github.com/mikeroyal/Robotics-Guide#table-of-contents)
 
 [Robot Framework](https://robotframework.org/) is a generic open source automation framework. It can be used for test automation and robotic process automation. It has easy syntax, utilizing human-readable keywords. Its capabilities can be extended by libraries implemented with Python or Java. 
@@ -165,6 +152,284 @@ commercially available industrial robot models that you can import, visualize, a
 [ROS 2 with ONNX Runtime](https://github.com/ms-iot/ros_msft_onnx) is a program that uses ROS 2 to run on different hardware platforms using their respective AI acceleration libraries for optimized execution of the ONNX model.
 
 [Azure Cognitive Services LUIS ROS Node](https://github.com/ms-iot/ros_msft_luis) is a ROS node that bridges between ROS and the Azure Language Understanding Service. it can be configured to process audio directly from a microphone, or can subscribe to a ROS audio topic, then processes speech and generates "intent" ROS messages which can be processed by another ROS node to generate ROS commands. 
+
+# Autodesk Robotics Development
+[Back to the Top](https://github.com/mikeroyal/Robotics-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687186-060c4b00-d1ca-11eb-9e90-f51a3ebf4e43.png">
+  <br />
+</p>
+
+**[Robot Programming Software for CAM Manufacturing | Autodesk](https://www.autodesk.com/solutions/robot-programming-software)**
+
+**[FIRST Robotics - Autodesk Design Academy](https://academy.autodesk.com/tags/first-robotics)**
+
+**[Accelerating Lidar for Robotics with NVIDIA CUDA-based PCL](https://developer.nvidia.com/blog/accelerating-lidar-for-robotics-with-cuda-based-pcl/)**
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/117885897-4c819800-b263-11eb-9fc8-14e7a931c9e4.png">
+  <br />
+</p>
+
+**Robot Programming Software for CAM Manufacturing. Source: [Autodesk](https://www.autodesk.com/solutions/robot-programming-software)**
+
+## Autodesk Learning Resources
+
+[Autodesk](https://www.autodesk.com/) is a global leader in design and make technology, with expertise across architecture, engineering, construction, design, manufacturing, and entertainment.
+
+[CNC programming (Computer Numerical Control Programming)](https://www.autodesk.com/solutions/cnc-programming) is utilized by manufacturers to create program instructions for computers to control a machine tool. CNC is highly involved in the manufacturing process and improves automation as well as flexibility.
+
+[AutoDesk Learning & Training](https://www.autodesk.com/training)
+
+[Autodesk Certification](https://www.autodesk.com/certification/overview)
+
+[Autodesk University](https://www.autodesk.com/autodesk-university/)
+
+[Autodesk Design Academy](https://academy.autodesk.com/)
+
+[Autodesk Customer Success Hub](https://customersuccess.autodesk.com)
+
+[Software and Services for Education | Autodesk Education](https://www.autodesk.com/education/home)
+
+[AutoDesk Forums](https://forums.autodesk.com)
+
+[AutoDesk Developer Network](https://www.autodesk.com/developer-network/overview)
+
+[Learning Civil 3D on Autodesk Knowledge Network](https://knowledge.autodesk.com/support/civil-3d/learn)
+
+[Top Autodesk Courses on Udemy](https://www.udemy.com/topic/autodesk/)
+
+[Top Autodesk Courses on Coursera](https://www.coursera.org/autodesk)
+
+[Top Autodesk Fusion 360 Courses on Coursera](https://www.coursera.org/courses?query=autodesk%20fusion%20360&page=1)
+
+
+## Autodesk Tools and Frameworks
+
+[AutoCAD®](https://www.autodesk.com/products/autocad/overview) is computer-aided design (CAD) software that architects, engineers, and construction professionals rely on to create precise 2D and 3D drawings. It also automates tasks such as comparing drawings, counting, adding blocks, creating schedules.
+
+[AutoCAD LT®](https://www.autodesk.com/products/autocad-lt/overview) is a powerful 2D computer-aided design (CAD) software that architects, engineers, construction professionals, and designers rely on to design, draft, and document with precise 2D geometry.
+
+[AutoCAD® Mobile App](https://www.autodesk.com/products/autocad-mobile/overview) is a mobile(smartphone or tablet) version of AutoCAD that has the core design and drafting tools. Work on your CAD drawings anytime, anywhere—even offline.
+
+[AutoCAD® Web App](https://www.autodesk.com/products/autocad-web-app/overview) is a web version of AutoCAD that can edit, create, share, and view CAD drawings in a web browser on any computer.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687196-0ad0ff00-d1ca-11eb-87d8-6a1e806dcd4c.png">
+  <br />
+</p>
+
+**AutoCAD® with Architecture toolset. Source: [Autodesk](https://www.autodesk.com/products/autocad/overview)**
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687204-13293a00-d1ca-11eb-806b-57a3526b0b75.png">
+  <br />
+</p>
+
+**AutoCAD® with  Mechanical toolset. Source: [Autodesk](https://www.autodesk.com/products/autocad/overview)**
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687201-10c6e000-d1ca-11eb-99b4-90dec581f163.png">
+  <br />
+</p>
+
+**AutoCAD® with Electrical toolset. Source: [Autodesk](https://www.autodesk.com/products/autocad/overview)**
+
+[Tinkercad®](https://www.tinkercad.com) is a free, easy-to-use app for 3D design, electronics, and coding. It's used by teachers, kids, hobbyists, and designers to imagine, design, and make anything.
+
+[Revit®](https://www.autodesk.com/products/revit/overview) is a  BIM (Building Information Modeling) software to drive efficiency and accuracy across the project lifecycle, from conceptual design, visualization, and analysis to fabrication and construction.
+
+[AEC(Architecture, Engineering & Construction) Collection®](https://www.autodesk.com/collections/architecture-engineering-construction/overview) is a set of BIM and CAD tools for designers, engineers, and contractors that is supported by a cloud-based common data environment that facilitates project delivery from early-stage design through to construction.
+
+[Fusion 360®](https://www.autodesk.com/products/fusion-360/overview) is an integrated CAD, CAM, CAE, and PCB software application. It unifies design, engineering, electronics, and manufacturing into a single software platform.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687501-98f9b500-d1cb-11eb-807b-20d24da14fc1.png">
+  <br />
+</p>
+
+**Autodesk® Fusion 360. Source: [Autodesk](https://www.autodesk.com/products/fusion-360/features#)**
+
+[Fusion 360 with FeatureCAM®](https://www.autodesk.com/products/featurecam/overview) is a tool that gives you access to FeatureCAM Ultimate, PartMaker, Fusion 360, Fusion Team, and HSMWorks. With FeatureCAM CNC programming software uses manufacturing knowledge to intelligently make decisions, produce results, and remove repetitive processes.
+
+[Fusion 360 with Netfabb®](https://www.autodesk.com/products/netfabb/overview) is a software that offers a complete toolset for design and implementation for additive manufacturing. It streamlines workflows and automates processes around 3D print preparation. The software also includes access to Fusion 360, Fusion 360 Team, and additional capabilities through Fusion 360 Additive Extensions.
+
+[Fusion 360 Manage](https://www.autodesk.com/products/fusion-360-manage/overview) is a product lifecycle management platform that connects your people, processes, and data across departments and geographies. It gives you the flexibility to start today and expand tomorrow with PLM that adapts to your business.
+
+[Fusion Team](https://fusionteam.autodesk.com/) is a cloud-based coll tool that helps eliminate the inefficiencies that disparate tools create when working with your internal and external teams.
+
+[Fusion 360 with PowerInspect®](https://www.autodesk.com/products/powerinspect/overview) is a 3D measurement software offers a powerful way to inspect, validate, and manage quality for all measurement equipment. Now includes access to Fusion 360, Fusion 360 Team, and Fusion 360 – Machining Extension. PowerInspect includes comprehensive inspection tools that measure parts while they’re still in On Machine Verification (OMV). Machine tool probing helps you make informed scrap or rework decisions quickly.
+
+[Fusion 360 with PowerMill® CAM](https://www.autodesk.com/products/powermill/overview) is a software provides expert CNC programming strategies for complex 3 and 5-axis manufacturing. This includes access to Fusion 360 and advanced manufacturing capabilities through Fusion 360 extensions.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687213-1f14fc00-d1ca-11eb-931e-79c7c5c58ce9.png">
+  <br />
+</p>
+
+**CNC machining with Fusion 360 with PowerMill® CAM. Source: [Autodesk](https://www.autodesk.com/products/powermill/overview)**
+
+[Fusion 360 with PowerShape®](https://www.autodesk.com/products/powershape/overview) is a  manufacturing CAD software combines surface, solid, and mesh modeling to help prepare molds, dies, and other complex parts for manufacture. This includes access to Fusion 360 and Fusion 360 Team.
+
+[Autodesk PartMaker®](https://www.autodesk.com/solutions/manufacturing-software/swiss-machining) is a software that can produce CNC programs that drive main and sub-spindle machining operations. These can be used for turning, indexed and interpolated C-axis milling, Y-axis, and B-axis milling.
+
+[Robot Structural Analysis Professional](https://www.autodesk.com/products/robot-structural-analysis/overview) is a structural load analysis software that verifies code compliance and uses BIM-integrated workflows to exchange data with Revit. It can help you to create more resilient, constructible designs that are accurate, coordinated, and connected to BIM.
+
+[Revit LT™](https://www.autodesk.com/products/revit-lt/overview) is a software that provides the most cost-effective BIM (Building Information Modeling) solution, you can produce high-quality 3D architectural designs and documentation.
+
+[Maya®](https://www.autodesk.com/products/maya/overview) is a 3D computer animation, modeling, simulation, and rendering software that can create realistic effects from explosions to cloth simulation.
+
+[Maya LT™](https://www.autodesk.com/products/maya-lt/overview) is a game design software for indie game makers that can create and animate realistic-looking characters, props, and environments using the sophisticated 3D modeling and animation tools.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687226-2a682780-d1ca-11eb-9408-4b32ddc7d493.png">
+  <br />
+</p>
+
+**Autodesk® Maya. Source:[Autodesk](https://www.autodesk.com/products/maya/overview)**
+
+[3DS Max®](https://www.autodesk.com/products/3ds-max/overview) is a 3D modeling and rendering software for design visualization, games, and animation.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687233-3358f900-d1ca-11eb-8e9c-0cb68b16db0e.png">
+  <br />
+</p>
+
+**Autodesk® 3DS Max. Source:[Autodesk](https://www.autodesk.com/products/3ds-max/overview)**
+
+[Arnold](https://www.autodesk.com/products/arnold/overview) is an advanced Monte Carlo ray tracing(Global illumination) renderer that helps you work more efficiently.
+
+[ReCap™](https://www.autodesk.com/products/recap/overview) is a Pro 3D scanning software to transform the physical world into a digital asset. With reality capture data you can better understand and verify existing and as-built conditions to gain insights and make better decisions.
+
+[Flame®](https://www.autodesk.com/products/flame/overview) is a 3D VFX and finishing software provides powerful tools for 3D compositing, visual effects, and editorial finishing. An integrated, creative environment means faster compositing, advanced graphics, color correction, and more.
+
+[Mudbox®](https://www.autodesk.com/products/mudbox/overview) is a 3D digital painting and sculpting software that let's you sculpt and paint highly detailed 3D geometry and textures.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687228-2e944500-d1ca-11eb-894e-b55e15c35620.png">
+  <br />
+</p>
+
+**Autodesk® Mudbox. Source:[Autodesk](https://www.autodesk.com/products/mudbox/overview)**
+
+[Character Generator®](https://www.autodesk.com/products/character-generator/overview) is a powerful 3D design and animation tools, Character Generator offers artists a web-based laboratory to create fully rigged 3D characters for animation packages and game engines.
+
+[Smoke®](https://www.autodesk.com/products/smoke/overview) is a  video effects software helps production studios increase productivity by combining editing workflows with node-based compositing tools in a timeline-centered editing environment.
+
+[ShotGrid](https://www.autodesk.com/products/shotgrid/overview) formerly Shotgun Software, is software for creative project management software and review tools for film, TV, and games that streamlines workflows for creative studios.
+
+[Advance Steel®](https://www.autodesk.com/products/advance-steel/overview) is a 3D modeling software for steel detailing, design, fabrication, and construction. it connects engineers and detailers through a seamless design and detailing workflow between Advance Steel and Revit, you can reduce the time required to move from design to fabrication while simultaneously reducing errors along the way.
+
+[Media & Entertainment Collection®](https://www.autodesk.com/collections/media-entertainment/overview) is a collection that includes all of the tools you need to build a powerful and scalable 3D animation pipeline for complex simulations, effects, and rendering.
+
+[Civil 3D®](https://www.autodesk.com/products/civil-3d/overview) is a  civil engineering design software supports BIM (Building Information Modeling) with integrated features to improve drafting, design, and construction documentation.
+
+[Inventor®](https://www.autodesk.com/products/inventor/overview) is a  CAD software that provides professional-grade 3D mechanical design, documentation, and product simulation tools. Work efficiently with a powerful blend of parametric, direct, freeform, and rules-based design capabilities.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687217-24724680-d1ca-11eb-9768-0fbcba5a0d41.png">
+  <br />
+</p>
+
+**Autodesk® Inventor. Source:[Autodesk](https://www.autodesk.com/products/inventor/overview)**
+
+[Inventor® CAM](https://www.autodesk.com/products/inventor-cam/overview) is an integrated CAM software for Inventor that simplifies CNC programming processes. Such as the machining workflow with CAD-embedded 2.5-axis to 5-axis milling, turning, and mill-turn capabilities.
+
+[Inventor Nastran®](https://www.autodesk.com/products/inventor-nastran/overview) is a CAD-embedded finite element analysis software that delivers finite element analysis (FEA) tools for engineers and analysts. Simulation covers multiple analysis types, such as linear and nonlinear stress, dynamics, and heat transfer.
+
+[Inventor® Nesting](https://www.autodesk.com/products/inventor-nesting/overview) is a CAD-embedded, true-shape nesting tools for Inventor that helps you optimize yield from flat raw material. Easily compare nesting studies to optimize efficiency and reduce costs, and export 3D models or DXF™ files of the completed nest for cutting path generation.
+
+[Inventor Tolerance Analysis®](https://www.autodesk.com/products/inventor-tolerance-analysis/overview) is an CAD-embedded tolerance stackup analysis software that is designed to help Inventor users make more informed decisions while specifying manufacturing tolerances.
+
+[Product Design & Manufacturing Collection](https://www.autodesk.com/collections/product-design-manufacturing/overview) is an integrated set of professional-grade applications that connect everyone, from concept to production, with shared tools to streamline your product development process.
+
+[Navisworks®](https://www.autodesk.com/products/navisworks/overview) is a project review software to improve BIM (Building Information Modeling) coordination. That can combine design and construction data into a single model.
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/122687230-2f2cdb80-d1ca-11eb-9bcf-5dc2fb858d7d.png">
+  <br />
+</p>
+
+**Autodesk® Navisworks. Source:[Autodesk](https://www.autodesk.com/products/navisworks/overview)**
+
+[BIM Collaborate](https://www.autodesk.com/products/bim-collaborate/overview) is cloud-based design collaboration and coordination software that connects AEC teams, helping you execute on design intent and deliver high-quality constructible models on a single platform.
+
+[BIM Collaborate Pro](https://www.autodesk.com/products/bim-collaborate/overview) is cloud-based design collaboration and coordination software that connects AEC teams, helping you execute on design intent and deliver high-quality constructible models on a single platform.
+
+[InfraWorks®](https://www.autodesk.com/products/infraworks/overview) is a conceptual design software lets architecture, engineering, and construction professionals model, analyze, and visualize infrastructure design concepts within the context of the built and natural environment—improving decision making and accelerating project approvals.
+
+[SketchBook®](https://www.autodesk.com/products/sketchbook/overview) is a drawing and painting software lets designers, architects, and concept artists sketch ideas quickly and create stunning illustrations.
+
+[Alias®](https://www.autodesk.com/products/alias-products/overview) is a product design software for sketching, concept modeling, surfacing, visualization. It can create and reuse templates across design and surfacing teams sharing surfacing language.
+
+[Assemble BIM Data](https://construction.autodesk.com/products/assemble/) is a tool that helps keep projects on track. Along with condition and connect BIM data to design reviews, estimating, change management, scheduling, work-in-place tracking, and more.
+
+[Autodesk® Forge](https://forge.autodesk.com) is a cloud-based developer platform from Autodesk. That let's you access design and engineering data in the cloud with the Forge platform. Whether you want to automate processes, connect teams and workflows, or visualize your data using Forge APIs.
+
+[Autodesk® Rendering](https://www.autodesk.com/products/rendering/overview) is a fast, high-resolution cloud rendering software that let's you produce stunning, high-quality renderings from designs and models with cloud rendering. This service uses cloud credits, which is a universal measure across Autodesk consumption-based cloud services to perform certain tasks in the cloud.
+
+[Autodesk® CFD](https://www.autodesk.com/products/cfd/overview) is a computational fluid dynamics simulation software that engineers and analysts use to intelligently predict how liquids and gases will perform. It helps to minimize the need for physical prototypes while providing deeper insight into fluid flow design performance.
+
+[Autodesk® Drive](https://www.autodesk.com/subscription/drive) is a way to securely store, preview, and share your 2D and 3D design data.
+
+[Autodesk® Viewer](https://www.autodesk.com/viewers) is a tool that supports most 2D and 3D files, including DWG, STEP, DWF, RVT, and Solidworks, and works with over 80 file types on any device. Get the feedback you need with Autodesk Viewer’s annotation and drawing tools for easy online collaboration.
+
+[Autodesk BIM 360®](https://www.autodesk.com/bim-360/) is a tool is part of the Autodesk Construction Cloud, connecting workflows, teams, and data to help you build better.
+
+[Autodesk® Build](https://construction.autodesk.com/products/autodesk-build/) is a construction management software for field execution and project management that empowers you to seamlessly collaborate and deliver construction projects on time, on budget.
+
+[Autodesk® Takeoff](https://construction.autodesk.com/products/autodesk-takeoff/) is a tool that helps you work with competitive bids that are generated from accurate estimates produced from integrated 2D takeoffs and 3D quantities.
+
+[BuildingConnected](https://www.buildingconnected.com) is the argest real-time construction network that connects owners and builders through an easy-to-use platform to streamline the bid and risk management process.
+
+[Bid Board Pro](https://www.buildingconnected.com/bid-board/) is a tool that helps you see all bid invites across your entire office or division from one place. Know what needs to get done, who’s responsible for it and when it’s due. Track project files, deadlines and more during each stage of the bidding process.
+
+[TradeTapp](https://www.buildingconnected.com/tradetapp/) is a tool that helps you significantly decrease the time it takes to analyze subcontractor risk, annually or for a specific project. Advanced risk profiles enable a streamlined process and offer financial benchmarking, key metric calculations, capacity recommendations and safety performance history.
+
+[Design Review](https://www.autodesk.com/products/design-review/overview) is a CAD viewer software lets you view, mark up, print, and track changes to 2D and 3D files for free—without the original design software. Work with a variety of file formats, including: DWF, DWFx, DWG, and DXF (requires installation of [free DWG TrueView software](https://www.autodesk.com/products/dwg/viewers)); Adobe PDF; as well as image file types such as.bmp, .jpg, .gif, .pcx, .pct, .png, .rlc, .tga, .tif, .mil, .cal, and more.
+
+[EAGLE](https://www.autodesk.com/products/eagle/overview) is electronic design automation (EDA) software that lets printed circuit board (PCB) designers seamlessly connect schematic diagrams, component placement, PCB routing, and comprehensive library content.
+
+[Fabrication ESTmep™, CADmep™, and CAMduct™](https://www.autodesk.com/products/fabrication/overview) is a software that provides an integrated set of tools for MEP specialty contractors to estimate, detail, and drive fabrication of mechanical building systems. Also, create high LOD models of piping, plumbing, or ductwork systems in AutoCAD using CADmep. Content libraries used in ESTmep, CADmep, and CAMduct can also be used in Revit to support BIM workflows. Available stand-alone or in the Architecture, Engineering & Construction Collection..
+
+[Formit](https://www.autodesk.com/products/formit/overview) is an architectural modeling software for BIM-based 3D sketching. The pro version of FormIt includes the tools in the FormIt app, plus Dynamo computation, and collaboration and analysis features.
+
+[Helius Composite](https://www.autodesk.com/products/helius-composite/overview) is a tool that can help you simulate the material behavior of compound components. Built-in solvers minimize the need to have secondary finite element analysis (FEA) software to analyze material characteristics more quickly.
+
+[Helius PFA](https://www.autodesk.com/products/helius-pfa/overview) is a progressive failure analysis software that predicts failure stages of composite materials. Helius PFA enables you to integrate composite and elastomeric material properties into your finite element analysis (FEA) program.
+
+[HSMWorks](https://www.autodesk.com/products/hsmworks/overview) is an ambedded CAM software for [SOLIDWORKS®](https://www.solidworks.com/) to design and generate CAM toolpaths without the hassle of changing software. Reduce cycle time and rework with CAD-embedded 2.5 to 5-axis milling, turning, and mill-turn capabilities. HSMWorks is included with your Fusion 360 subscription.
+
+[Insight](https://www.autodesk.com/products/insight/overview) is a building performance analysis software that empowers architects and engineers to design more energy-efficient buildings with advanced simulation engines and building performance analysis data integrated in Revit.
+
+[Moldflow®](https://www.autodesk.com/products/moldflow/overview) is a software tool that lets you troubleshoot problems with plastic injection and compression molding for design and manufacturing. Advanced tools and a simplified user interface help you address manufacturing challenges, such as part warpage, cooling channel efficiency, and cycle time reduction.
+
+[MotionBuilder®](https://www.autodesk.com/products/motionbuilder/overview) is a 3D character animation software. Work in an interactive environment optimized to help you work faster and more efficiently without compromising creativity.
+
+[PlanGrid Build](https://construction.autodesk.com/products/autodesk-plangrid-build/?pgr=1) is a Construction app built for the field. It allows you to complete tasks from anywhere on the jobsite with seamless access to Autodesk Build data, even when you’re offline.
+
+[Point Layout](https://www.autodesk.com/products/point-layout/overview) is a  construction layout software helps contractors and subcontractors bring model accuracy to the field and back. Connect models to layout and quality workflows. Get direct file format compatibility with robotic total station hardware, including Leica, Topcon, and Trimble.
+
+[Structural Bridge Design®](https://www.autodesk.com/products/structural-bridge-design/overview) is a bridge analysis software for small to medium-span bridges used by engineers to deliver design reports faster.
+
+[Vault®](https://www.autodesk.com/products/vault/overview) is a product data management (PDM) software helps streamline workflows. Everyone works from a central source of organized data—collaborating, reducing errors, and saving time.
+
+[Vehicle Tracking®](https://www.autodesk.com/products/vehicle-tracking/overview) is a swept path analysis and design software to facilitate parking lot layout, roundabout design, and other design challenges impacted by vehicle movement.
+
+[VRED®](https://www.autodesk.com/products/vred/overview) is a 3D visualization software helps automotive designers and engineers create product presentations, design reviews, and virtual prototypes using interactive GPU raytracing and both analytic and cloud-rendering modes.
+
+[Within Medical®](https://www.autodesk.com/products/within-medical/overview) is a 3D printing orthopedic implant design software that enables designers to create medical implants to aid osseointegration.
+
+[Pype](https://construction.autodesk.com/products/pype/) is a tool that helps you reduce project risk and strengthen client relationships by automating processes that are critical for owner satisfaction and contract compliance.
+
+[Pype Closeout](https://pype.io/closeout/) is a tool provides a single portal for closeout documentation management, with digital document collection from subcontractors and powerful reporting dashboards. With subcontractor outreach automated, the Closeout platform ensures contract compliance and helps you get paid faster.
+
+[Pype SmartPlans](https://pype.io/smartplans/) is a tool that locates and extracts all submittals from your uploaded plans automatically. Export product, equipment, and finish schedules into excel with a single click. SmartPlans’ powerful automation uses cutting edge artificial intelligence and machine learning to intelligently read your drawings to extract submittals and schedules.
+
+[CAMplete](https://www.autodesk.com/products/camplete/overview) is a software tool that  provides G-code post-processing, verification, and simulation for different kinds of CNC machinery. Import data from leading CAM software then use proven post-processors and highly accurate 3D machine models, developed in partnership with machine tool builders, to rapidly produce high-quality, collision free NC machining code.
+
+[Vault PLM](https://www.autodesk.com/products/vault-plm/overview) is a tool that combines Vault Professional with Fusion Lifecycle for enterprise-wide collaboration and product lifecycle management.
 
 # C/C++ Development
 [Back to the Top](https://github.com/mikeroyal/Robotics-Guide#table-of-contents)
