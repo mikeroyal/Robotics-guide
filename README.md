@@ -121,6 +121,20 @@ commercially available industrial robot models that you can import, visualize, a
 
 [Intel Robot DevKit](https://github.com/intel/robot_devkit) is the tool to generate Robotics Software Development Kit (RDK) designed for autonomous devices, including the ROS2 core and capacibilities packages like perception, planning, control driver etc. It provides flexible build/runtime configurations to meet different autonomous requirement on top of diversity hardware choices, for example use different hareware engine CPU/GPU/VPU to accelerate AI related features.
 
+[Neurorobotics Platform (NRP)](https://neurorobotics.net/) is an Internet-accessible simulation system that allows the simulation of robots controlled by spiking neural networks.
+
+[ViSP](http://visp.inria.fr/) is an open-source visual servoing platform library, is able to compute control laws that can be applied to robotic systems.
+
+[ROS Behavior Trees](https://github.com/miccol/ROS-Behavior-Tree) is an open-source library to create robot's behaviors in form of Behavior Trees running in ROS (Robot Operating System).
+
+[g2core](https://github.com/synthetos/g2) is an open-source motion control software for CNC and Robotics, designed to run on Arduino Due class microcontrollers.
+
+[ur5controller](https://github.com/roboticsleeds/ur5controller) is an open-source OpenRAVE controller for UR5 robot integrated with ROS.
+
+[RBDL](https://github.com/rbdl/rbdl) is an open-source (zlib) C++ libray for both forward and inverse dynamics and kinematics. Also supports contacts and loops.
+
+[Unity Robotics Hub](https://github.com/Unity-Technologies/Unity-Robotics-Hub) is a Central repository for open-source Unity packages, tutorials, and other resources demonstrating how to use Unity for robotics simulations. Includes new support for ROS integration.
+
 [Arduino](https://www.arduino.cc/) is an open-source platform used for building electronics projects. Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE (Integrated Development Environment) that runs on your computer, used to write and upload computer code to the physical board.
 
 [ArduPilot](https://ardupilot.org/ardupilot/index.html) enables the creation and use of trusted, autonomous, unmanned vehicle systems for the peaceful benefit of all. ArduPilot provides a comprehensive suite of tools suitable for almost any vehicle and application.
